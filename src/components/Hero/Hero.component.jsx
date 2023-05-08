@@ -8,7 +8,9 @@ const Hero = () => {
 
         <button
           type='button'
-          onClick={() => window.open('link goes here')}
+          onClick={() =>
+            window.open('https://github.com/mauriziodm91/openai-summarizer')
+          }
           className='black_btn'
         >
           Github
