@@ -8,6 +8,7 @@ const UrlBar = ({ handleSubmit, linkIcon, article, setArticle }) => {
         src={linkIcon}
         alt='link-icon'
         className='absolute left-0 my-2 ml-3 w-5'
+        onClick={() => setArticle({ url: '', summary: '' })}
       />
       <input
         type='url'
